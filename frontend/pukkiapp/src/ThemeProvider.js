@@ -5,7 +5,7 @@ import { ThemeProvider } from 'emotion-theming';
 
 const theme = {
     breakpoints: [
-        '414px', '1007px'
+        '430px', '1007px'
     ],
     colors: {
         text: '#647477',

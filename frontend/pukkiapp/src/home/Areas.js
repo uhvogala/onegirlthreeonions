@@ -4,7 +4,7 @@ import BulletText from '../components/BulletText';
 import PeopleIndex from '../components/PeopleIndex';
 import areaData from '../assets/content.json';
 
-const NotyScreen = ({area}) => {
+const AreasScreen = ({area}) => {
 
     const details = areaData.filter(data => data.name === area);
     
@@ -75,4 +75,4 @@ const NotyScreen = ({area}) => {
 
 }
 
-export default NotyScreen;
+export default AreasScreen;
