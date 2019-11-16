@@ -10,7 +10,8 @@
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Sea & Mountain Adventures Oy.",
     "tags" : ["Camp Fire", "Fishing"],
-    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset"
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset",
+    "crowded": "Crowded"
   },
   {
     "name": "nuuksio",
@@ -23,7 +24,8 @@
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been SoundByNature Oy",
     "tags" : ["Camping", "Kayaking"],
-    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#kaarniaispolku"
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#kaarniaispolku",
+     "crowded": "Moderate"
   },
   {
     "name": "siikaranta",
@@ -36,7 +38,8 @@
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Raatamo",
     "tags" : ["Ice Swimming", "Camping"],
-    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#soidinkierros"
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#soidinkierros",
+    "crowded": "Moderate"
   },
   {
     "name": "mustakorventie",
@@ -49,7 +52,8 @@
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Piece of forest.",
     "tags": ["Ice Swimming", "Kayaking"],
-    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#nahkiaispolku"
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#nahkiaispolku",
+    "crowded": "Calm"
   },
   {
     "name": "takalan_polku",
@@ -62,7 +66,8 @@
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Hawkhill Nature.",
     "tags" : ["Ice Swimming", "Camping"],
-    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#takalanpolku"
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#takalanpolku",
+    "crowded": "Calm"
   },
   {
     "name": "haukkalampi",
@@ -75,7 +80,8 @@
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Finnish Nature Centre Haltia.",
     "tags" : ["Fishing", "Kayaking"],
-    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#punarinnankierros"
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#punarinnankierros",
+    "crowded": "Crowded"
     
   }
 ]
