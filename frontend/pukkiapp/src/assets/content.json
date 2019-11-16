@@ -9,17 +9,19 @@
     "difficulty" : "Challenging",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Sea & Mountain Adventures Oy."
+    "tags" : ["Camp Fire", "Fishing"]
   },
   {
     "name": "nuuksio",
-    "title": "Nuuksio, Veikkola",
+    "title": "Veikkola",
     "thumbnail": "https://pukkistorage.blob.core.windows.net/pukkicontainer/Nuuksio12.jpg",
     "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the Kaarniaispolku, that starts from Kaarniaispolun parking area.",
     "length": "1.7km",
     "duration" : "1 hour",
     "difficulty" : "Easy",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
-    "text1" : "After the route, other visitors favourite place to visit has been SoundByNature Oy"
+    "text1" : "After the route, other visitors favourite place to visit has been SoundByNature Oy",
+    "tags" : ["Camping", "Kayaking"]
   },
   {
     "name": "siikaranta",
@@ -30,7 +32,8 @@
     "duration" : "2 hours",
     "difficulty" : "Easy",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
-    "text1" : "After the route, other visitors favourite place to visit has been Raatamo"
+    "text1" : "After the route, other visitors favourite place to visit has been Raatamo",
+    "tags" : ["Ice Swimming", "Camping"]
   },
   {
     "name": "mustakorventie",
@@ -41,7 +44,8 @@
     "duration" : "1 hour",
     "difficulty" : "Challenging",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
-    "text1" : "After the route, other visitors favourite place to visit has been Piece of forest."
+    "text1" : "After the route, other visitors favourite place to visit has been Piece of forest.",
+    "tags": ["Ice Swimming", "Kayaking"]
   },
   {
     "name": "takalan_polku",
@@ -52,17 +56,20 @@
     "duration" : "1 hour",
     "difficulty" : "Easy",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
-    "text1" : "After the route, other visitors favourite place to visit has been Hawkhill Nature."
+    "text1" : "After the route, other visitors favourite place to visit has been Hawkhill Nature.",
+    "tags" : ["Ice swimming", "Camping"]
   },
   {
     "name": "haukkalampi",
-    "title": "Haukkalampi - Solvalla",
+    "title": "Haukkalampi",
     "thumbnail": "https://pukkistorage.blob.core.windows.net/pukkicontainer/haukkalampi.jpg",
     "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the Punarinnankierros, that starts from Haukkalampi - Solvalla. ",
     "length": "4.6 km",
     "duration" : "2 hours",
     "difficulty" : "Challenging",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
-    "text1" : "After the route, other visitors favourite place to visit has been Finnish Nature Centre Haltia."
+    "text1" : "After the route, other visitors favourite place to visit has been Finnish Nature Centre Haltia.",
+    "tags" : ["Fishing", "Kayaking"]
+    
   }
 ]
