@@ -21,7 +21,7 @@ const theme = {
         highlight: 'hsla(205, 100%, 40%, 0.125)',
         crowded: '#FF677E',
         mediumCrowded: '#F5B986',
-        lightCrowed: '#5ECC7C'
+        lightCrowded: '#5ECC7C'
     },
     fonts: {
         body: 'Avenir',
@@ -45,6 +45,7 @@ const theme = {
     },
     radii: {
         "default": 23,
+        button: 15,
         circle: 99999
     },
     shadows: {
@@ -58,6 +59,8 @@ const theme = {
             fontWeight: 'bolder',
             fontSize: 30,
             letterSpacing: "0.8px",
+            textAlign: "left",
+            my: 2
         },
         display: {
             fontFamily: 'heading',
@@ -68,6 +71,14 @@ const theme = {
         caps: {
             textTransform: 'uppercase',
             letterSpacing: '0.1em'
+        },
+        subtext: {
+            fontSize: 0,
+            fontWeight: 'medium'
+        },
+        link: {
+            color: "primary",
+            fontWeight: 600
         }
     },
     variants: {
@@ -111,11 +122,13 @@ const theme = {
     buttons: {
         primary: {
             fontSize: 1,
-            borderRadius: 'default',
-            color: 'text',
+            borderRadius: 'button',
+            color: 'white',
             bg: 'primary',
-            mx: [1, 3],
-            fontFamily: 'Avenir'
+            fontFamily: 'Avenir',
+            fontWeight: 600,
+            px: 20,
+            py: 15
         },
         outline: {
             variant: 'buttons.primary',

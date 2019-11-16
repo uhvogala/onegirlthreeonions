@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Text, Button, Box, Flex, Card, Image, Heading } from 'rebass';
+import BulletText from '../components/BulletText';
+import PeopleIndex from '../components/PeopleIndex';
 
 const NotyScreen = ({area}) => {
 
@@ -28,14 +30,33 @@ const NotyScreen = ({area}) => {
                         <Image
                             alignSelf="center"
                             variant="image"
-                            src="https://www.luontoon.fi/documents/10550/56972493/sumumaisema_MauriLeivo_1050.jpg/79addfc2-a065-18fc-284d-293d0bda3baf?t=1557920301125"
+                            src="https://pukkistorage.blob.core.windows.net/pukkicontainer/haukkalampi.jpg"
                         />
                         <Heading>Haukkalampi - Solvalla</Heading>
                         <Text></Text>
                         <Flex
 
                         >
-                            
+                            <BulletText text="Approx. 2h" />
+                            <BulletText text="4.6 km" />
+                            <BulletText text="Extremely challenging" />
+                        </Flex>
+                        <PeopleIndex status="good" />
+                        <Box sx={{textAlign: "left"}}>
+                            <Text sx={{hyphens: "auto"}}>
+                            Along the route, you will find the place above, which has been the most popular to take pictures! 
+                            </Text>
+                        </Box>
+                        <Flex
+                            alignItems="center"
+                            justifyContent="space-between"
+                            sx={{
+                                width: "100%",
+                                mt: 4,
+                            }}
+                        >
+                            <Text variant="link">Explore other trails</Text>
+                            <Button>Read more</Button>
                         </Flex>
                     </Flex>
                 </Card>
