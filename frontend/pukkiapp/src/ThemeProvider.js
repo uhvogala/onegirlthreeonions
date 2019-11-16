@@ -79,6 +79,12 @@ const theme = {
         link: {
             color: "primary",
             fontWeight: 600
+        },
+        thumbnailHeading: {
+            fontSize: "22px", 
+            color: "white", 
+            textAlign: "left",
+            fontWeight: 600
         }
     },
     variants: {

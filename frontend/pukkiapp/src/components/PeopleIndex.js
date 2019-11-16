@@ -15,7 +15,10 @@ const PeopleIndex = props => {
                 my: "15px"
 
             }}></Box>
-            <Text sx={{mr: 3, color: color}}>{props.status === "good" ? "Calm" : props.status === "okay" ? "Slightly crowded" : "Crowded"}</Text>
+            {
+                props.noText ||
+                <Text sx={{mr: 3, color: color}}>{props.status === "good" ? "Calm" : props.status === "okay" ? "Slightly crowded" : "Crowded"}</Text>
+            }
         </Flex>
     );
 }

@@ -9,9 +9,10 @@ const BulletText = props =>
         width: '4px',
         height: '4px',
         borderRadius: 'circle',
-        mr: "4px"
+        mr: "4px",
+        ...props.bulletSx
     }}></Box>
-    <Text variant="subtext" sx={{mr: 3, whiteSpace: "nowrap"}}>{props.text}</Text>
+    <Text variant="subtext" sx={{mr: 3, whiteSpace: "nowrap", ...props.sx}}>{props.text}</Text>
 </Flex>;
 
 export default BulletText;

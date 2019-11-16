@@ -4,9 +4,9 @@ import BulletText from '../components/BulletText';
 import PeopleIndex from '../components/PeopleIndex';
 import areaData from '../assets/content.json';
 
-const NotyScreen = ({area}) => {
+const NotyScreen = ({trail}) => {
 
-    const details = areaData.filter(data => data.name === area);
+    const details = areaData.filter(data => data.name === trail);
     
     if (details.length === 1) {
         const data = details[0];

@@ -4,74 +4,81 @@ import BulletText from '../components/BulletText';
 import PeopleIndex from '../components/PeopleIndex';
 import areaData from '../assets/content.json';
 
-const AreasScreen = ({area}) => {
+const AreasScreen = () => {
 
-    const details = areaData.filter(data => data.name === area);
-    
-    if (details.length === 1) {
-        const data = details[0];
+    const trails = areaData;
 
-        return (
-            <Box variant="fullContainer" sx={{bg: 'primaryLight'}}>
-                <Flex 
-                    flexDirection="column" 
-                    alignItems="center"
+    const area = {
+        name: "Nuuksio National Park",
+        shortName: "Nuuksio"
+    };
+
+    const trailThumbs = trails.map((trail, index) => (
+        <Box
+            key={index}
+            sx={{width: "240px", borderRadius: "default", mr: 3, my: 3, position: "relative"}}
+        >
+            <Image src={trail.thumbnail} sx={{
+                height: "310px",
+                width: "240px",
+                objectFit: "cover",
+                borderRadius: "default"
+            }}/>
+            <Box
+                sx={{
+                    position: "absolute",
+                    bottom: "6px",
+                    height: "100px",
+                    width: "100%",
+                    borderBottomLeftRadius: "default",
+                    borderBottomRightRadius: "default",
+                    backgroundImage: "linear-gradient(to bottom, #31849301, #318493)"
+                }}
+            >
+                <Flex
+                    sx={{height: "100%", mx: 3}}
+                    flexDirection="column"
                     justifyContent="center"
-                    sx={{
-                        height: "100%",
-                    }}
                 >
-                    <Card 
-                        sx={{
-                            ml: [0, "auto"],
-                            mr: [0, "auto"],
-                            width: ["100%", "400px"]
-                        }}
-                    >
-                        <Flex 
-                            flexDirection="column"
-                            alignItems="flex-start"
-                            sx={{flex: "0 1 auto", p: 2}}
-                        >
-                            <Image
-                                alignSelf="center"
-                                variant="image"
-                                src={data.thumbnail}
-                            />
-                            <Heading>{data.title}</Heading>
-                            <Text></Text>
-                            <Flex
-    
-                            >
-                                <BulletText text={data.duration} />
-                                <BulletText text={data.length} />
-                                <BulletText text={data.difficulty} />
-                            </Flex>
-                            <PeopleIndex status="good" />
-                            <Box sx={{textAlign: "left"}}>
-                                <Text sx={{hyphens: "auto"}}>{data.text}</Text>
-                            </Box>
-                            <Flex
-                                alignItems="center"
-                                justifyContent="space-between"
-                                sx={{
-                                    width: "100%",
-                                    mt: 4,
-                                }}
-                            >
-                                <Text variant="link">Explore other trails</Text>
-                                <Button>Read more</Button>
-                            </Flex>
-                        </Flex>
-                    </Card>
+                    <Flex alignItems="center">
+                        <Text variant="thumbnailHeading" sx={{mr: 4}}>{trail.title}</Text>
+                        <PeopleIndex noText={true} />
+                    </Flex>
+                    <Flex>
+                        <BulletText text={"Approx. " + trail.duration} sx={{color: "white"}} bulletSx={{bg: "white"}}/>
+                        <BulletText text={trail.length}  sx={{color: "white"}} bulletSx={{bg: "white"}}/>
+                    </Flex>
+
                 </Flex>
             </Box>
-        )
+        </Box>
+    ));
 
-    } else {
-        return <Text>No data</Text>;
-    }
-
+    return (
+        <Box variant="fullContainer" sx={{}}>
+            <Flex 
+                flexDirection="column"
+                sx={{
+                    height: "100%",
+                    pt: "64px",
+                    px: "24px"
+                }}
+            >
+                <Heading>{area.name}</Heading>
+                <Text sx={{textAlign: "left"}}>Explore everything {area.shortName} has to offer</Text>
+                <Box sx={{position: "relative", minHeight: "350px", overflowX: "scroll"}}>
+                    <Box sx={{position: "absolute"}}>
+                        <Flex
+                            justifyContent="center"
+                            xs={{overflowX: "auto"}}
+                        >
+                            {trailThumbs}
+                        </Flex>
+                    </Box>
+                </Box>
+            </Flex>
+        </Box>
+    );
 
 }
 
