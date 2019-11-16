@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Ice Swimming",
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_avanto.jpg"
+    },
+    {
+        "name": "Campfire",
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_campfire.jpg"
+    },
+    {
+        "name": "Camping",
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_camping.jpg"
+    },
+    {
+        "name": "Fishing",
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_kalastus.jpeg"
+    },
+    {
+        "name": "Kayaking",
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_kayaking.jpg"
+    }
+    
+]
