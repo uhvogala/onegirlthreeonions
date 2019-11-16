@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { Text, Button, Box, Flex, Card, Image, Heading } from 'rebass';
+import { Text, Button, Box, Flex, Card, Image, Heading, Link } from 'rebass';
 import BulletText from '../components/BulletText';
 import PeopleIndex from '../components/PeopleIndex';
 import areaData from '../assets/content.json';
@@ -59,7 +59,7 @@ const NotyScreen = ({trail}) => {
                                     mt: 4,
                                 }}
                             >
-                                <Text variant="link">Explore other trails</Text>
+                                <Link href="/areas/nuuksio_national_park" variant="link">Explore other trails</Link>
                                 <Button>Read more</Button>
                             </Flex>
                         </Flex>

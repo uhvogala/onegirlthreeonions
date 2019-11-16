@@ -100,7 +100,9 @@ const theme = {
             borderRadius: 'default'
         },
         link: {
-            color: 'primary'
+            color: 'primary',
+            fontWeight: 600,
+            textDecoration: 'none'
         },
         image: {
             borderRadius: 'default',

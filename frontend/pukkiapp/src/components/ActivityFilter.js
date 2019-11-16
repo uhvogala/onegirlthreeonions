@@ -3,8 +3,6 @@ import { Box, Button, Flex, Text } from 'rebass';
 
 const ActivityFilter = ({values, valuesChanged}) => {
 
-    console.log(values);
-
     const [selected, setSelected] = useState([]);
     useEffect(() => {
         valuesChanged(selected);
