@@ -1,0 +1,75 @@
+[
+  {
+    "name": "kattilaniitty",
+    "title": "Kattilaniitty",
+    "thumbnail": "https://pukkistorage.blob.core.windows.net/pukkicontainer/photo-1538844435424-a5b1aac831a1.jpeg",
+    "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the route through Nuuksio national park, that starts from Kattila",
+    "length": "14km",
+    "duration" : "6 hours",
+    "difficulty" : "Challenging",
+    "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
+    "text1" : "After the route, other visitors favourite place to visit has been Sea & Mountain Adventures Oy.",
+    "tags" : ["Camp Fire", "Fishing"]
+  },
+  {
+    "name": "nuuksio",
+    "title": "Veikkola",
+    "thumbnail": "https://pukkistorage.blob.core.windows.net/pukkicontainer/Nuuksio12.jpg",
+    "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the Kaarniaispolku, that starts from Kaarniaispolun parking area.",
+    "length": "1.7km",
+    "duration" : "1 hour",
+    "difficulty" : "Easy",
+    "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
+    "text1" : "After the route, other visitors favourite place to visit has been SoundByNature Oy",
+    "tags" : ["Camping", "Kayaking"]
+  },
+  {
+    "name": "siikaranta",
+    "title": "Siikaranta",
+    "thumbnail": "https://pukkistorage.blob.core.windows.net/pukkicontainer/download.jpeg",
+    "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the Soidinkierros, that starts from Siikaranta",
+    "length": "4km",
+    "duration" : "2 hours",
+    "difficulty" : "Easy",
+    "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
+    "text1" : "After the route, other visitors favourite place to visit has been Raatamo",
+    "tags" : ["Ice Swimming", "Camping"]
+  },
+  {
+    "name": "mustakorventie",
+    "title": "Mustakorventie",
+    "thumbnail": "https://pukkistorage.blob.core.windows.net/pukkicontainer/Nuuksio_Punarinta_Mustalampi_taukopaikka_LauraLehtonen_1050.jpg",
+    "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the Nahkiaispolku route, that starts from Mustakorventie.",
+    "length": "2km",
+    "duration" : "1 hour",
+    "difficulty" : "Challenging",
+    "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
+    "text1" : "After the route, other visitors favourite place to visit has been Piece of forest.",
+    "tags": ["Ice Swimming", "Kayaking"]
+  },
+  {
+    "name": "takalan_polku",
+    "title": "Takalan Polku",
+    "thumbnail": "https://pukkistorage.blob.core.windows.net/pukkicontainer/Nuuksio_TakalanPolku_Myllypuro_SiniVeuro_1050x590.jpg",
+    "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the Takalan polku,, that starts from Kattilaniitty.",
+    "length": "3km",
+    "duration" : "1 hour",
+    "difficulty" : "Easy",
+    "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
+    "text1" : "After the route, other visitors favourite place to visit has been Hawkhill Nature.",
+    "tags" : ["Ice Swimming", "Camping"]
+  },
+  {
+    "name": "haukkalampi",
+    "title": "Haukkalampi",
+    "thumbnail": "https://pukkistorage.blob.core.windows.net/pukkicontainer/haukkalampi.jpg",
+    "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the Punarinnankierros, that starts from Haukkalampi - Solvalla. ",
+    "length": "4.6 km",
+    "duration" : "2 hours",
+    "difficulty" : "Challenging",
+    "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
+    "text1" : "After the route, other visitors favourite place to visit has been Finnish Nature Centre Haltia.",
+    "tags" : ["Fishing", "Kayaking"]
+    
+  }
+]
