@@ -40,7 +40,7 @@ const ActivityFilter = ({values, valuesChanged}) => {
     ));
 
     return (
-        <Box sx={{mt: 4, position: "relative", minHeight: "35px", overflowX: "scroll"}}>
+        <Box sx={{mt: 4, position: "relative", minHeight: "35px", overflowX: "scroll", '::-webkit-scrollbar': {display: 'none'}}}>
             <Box sx={{position: "absolute"}}>
                 <Flex
                     justifyContent="center"

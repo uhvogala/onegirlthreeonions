@@ -35,7 +35,7 @@ const AreasScreen = () => {
             <Box
                 sx={{
                     position: "absolute",
-                    bottom: "6px",
+                    bottom: "5px",
                     height: "100px",
                     width: "100%",
                     borderBottomLeftRadius: "default",
@@ -65,7 +65,7 @@ const AreasScreen = () => {
     const activityBoxes = activities.map((activity, index) => (
         <Box
             key={index}
-            sx={{width: ["100%", "80%"], borderRadius: "default", my: 2, position: "relative"}}
+            sx={{width: ["100%", "70%"], borderRadius: "default", my: "16px", my: 2, position: "relative"}}
         >
             <Image src={activity.photo} sx={{
                 height: ["180px", "300px"],
@@ -76,7 +76,7 @@ const AreasScreen = () => {
             <Box
                 sx={{
                     position: "absolute",
-                    bottom: "6px",
+                    bottom: "5px",
                     height: "100px",
                     width: "100%",
                     borderBottomLeftRadius: "default",
@@ -109,7 +109,7 @@ const AreasScreen = () => {
                 <Heading>{area.name}</Heading>
                 <Text sx={{textAlign: "left"}}>Explore everything {area.shortName} has to offer</Text>
                 <ActivityFilter values={tags} valuesChanged={setCategoryFilter}/>
-                <Box sx={{position: "relative", minHeight: "380px", overflowX: "scroll"}}>
+                <Box sx={{position: "relative", minHeight: "380px", overflowX: "scroll", '::-webkit-scrollbar': {display: 'none'}}}>
                     <Box sx={{position: "absolute"}}>
                         <Flex
                             justifyContent="center"

@@ -1,23 +1,28 @@
 [
     {
         "name": "Ice Swimming",
-        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_avanto.jpg"
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_avanto.jpg",
+        "link": "https://www.visitfinland.com/article/a-refreshing-dip-icy-waters/"
     },
     {
         "name": "Campfire",
-        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_campfire.jpg"
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_campfire.jpg",
+        "link": "https://www.visitfinland.com/article/the-forest-a-finnish-favourite/"
     },
     {
         "name": "Camping",
-        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_camping.jpg"
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_camping.jpg",
+        "link": "https://www.visitfinland.com/article/camping-in-finland-hidden-gem-of-the-nordics/"
     },
     {
         "name": "Fishing",
-        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_kalastus.jpeg"
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_kalastus.jpeg",
+        "link": "https://www.visitfinland.com/article/ice-fishing-finnish-meditation/"
     },
     {
         "name": "Kayaking",
-        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_kayaking.jpg"
+        "photo": "https://pukkistorage.blob.core.windows.net/pukkicontainer/activity_kayaking.jpg",
+        "link": "https://www.visitfinland.com/article/experience-the-finnish-national-park/"
     }
     
 ]
