@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, Box, Flex } from 'rebass'
 const PeopleIndex = props => {
-    const color = props.status === "good" ? "lightCrowded" : (props.status === "okay" ? "mediumCrowded" : "crowded");
+    const color = props.status === 1 ? "lightCrowded" : (props.status === 2 ? "mediumCrowded" : "crowded");
     return (
         <Flex
             alignItems="center"
@@ -17,7 +17,7 @@ const PeopleIndex = props => {
             }}></Box>
             {
                 props.noText ||
-                <Text sx={{mr: 3, color: color}}>{props.status === "good" ? "Calm" : props.status === "okay" ? "Slightly crowded" : "Crowded"}</Text>
+                <Text sx={{mr: 3, color: color}}>{props.status === 1 ? "Calm" : props.status === 2 ? "Slightly crowded" : "Crowded"}</Text>
             }
         </Flex>
     );

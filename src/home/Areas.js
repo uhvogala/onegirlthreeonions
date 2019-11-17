@@ -6,7 +6,7 @@ import ActivityFilter from '../components/ActivityFilter';
 import areaData from '../assets/content.json';
 import activities from '../assets/activities.json';
 
-const AreasScreen = () => {
+const AreasScreen = (props) => {
 
     const trails = areaData;
 
@@ -19,10 +19,11 @@ const AreasScreen = () => {
 
     const [categoryFilter, setCategoryFilter] = useState([]);
 
-    const trailThumbs = trails.filter(trail => (
+    const trailThumbs = trails.sort((a, b) => a.crowded - b.crowded).filter(trail => (
         categoryFilter.length === 0 || trail.tags.filter(t => categoryFilter.includes(t)).length > 0
     )).map((trail, index) => (
         <Box
+            onClick={() => window.location.href = trail.link}
             key={index}
             sx={{width: "240px", borderRadius: "default", mr: 3, my: 3, position: "relative"}}
         >
@@ -50,7 +51,7 @@ const AreasScreen = () => {
                 >
                     <Flex alignItems="center">
                         <Text variant="thumbnailHeading" sx={{mr: 3}}>{trail.title}</Text>
-                        <PeopleIndex noText={true} status="good"/>
+                        <PeopleIndex noText={true} status={trail.crowded}/>
                     </Flex>
                     <Flex>
                         <BulletText text={"Approx. " + trail.duration} sx={{color: "white"}} bulletSx={{bg: "white"}}/>
@@ -64,6 +65,7 @@ const AreasScreen = () => {
 
     const activityBoxes = activities.map((activity, index) => (
         <Box
+            onClick={()=> window.location.href = activity.link}
             key={index}
             sx={{width: ["100%", "70%"], borderRadius: "default", my: "16px", my: 2, position: "relative"}}
         >

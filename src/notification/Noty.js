@@ -47,7 +47,7 @@ const NotyScreen = ({trail}) => {
                                 <BulletText text={data.length} />
                                 <BulletText text={data.difficulty} />
                             </Flex>
-                            <PeopleIndex status="good" />
+                            <PeopleIndex status={data.crowded} />
                             <Box sx={{textAlign: "left"}}>
                                 <Text sx={{hyphens: "auto"}}>{data.text}</Text>
                             </Box>

@@ -9,7 +9,9 @@
     "difficulty" : "Challenging",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Sea & Mountain Adventures Oy.",
-    "tags" : ["Camp Fire", "Fishing"]
+    "tags" : ["Camp Fire", "Fishing"],
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset",
+    "crowded": 3
   },
   {
     "name": "nuuksio",
@@ -21,7 +23,9 @@
     "difficulty" : "Easy",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been SoundByNature Oy",
-    "tags" : ["Camping", "Kayaking"]
+    "tags" : ["Camping", "Kayaking"],
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#kaarniaispolku",
+     "crowded": 2
   },
   {
     "name": "siikaranta",
@@ -33,7 +37,9 @@
     "difficulty" : "Easy",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Raatamo",
-    "tags" : ["Ice Swimming", "Camping"]
+    "tags" : ["Ice Swimming", "Camping"],
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#soidinkierros",
+    "crowded": 2
   },
   {
     "name": "mustakorventie",
@@ -45,19 +51,23 @@
     "difficulty" : "Challenging",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Piece of forest.",
-    "tags": ["Ice Swimming", "Kayaking"]
+    "tags": ["Ice Swimming", "Kayaking"],
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#nahkiaispolku",
+    "crowded": 1
   },
   {
     "name": "takalan_polku",
     "title": "Takalan Polku",
     "thumbnail": "https://pukkistorage.blob.core.windows.net/pukkicontainer/Nuuksio_TakalanPolku_Myllypuro_SiniVeuro_1050x590.jpg",
-    "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the Takalan polku,, that starts from Kattilaniitty.",
+    "introduction" : "Welcome to the Nuuksio National Park! Our recommendation for today is the Takalan polku, that starts from Kattilaniitty.",
     "length": "3km",
     "duration" : "1 hour",
     "difficulty" : "Easy",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Hawkhill Nature.",
-    "tags" : ["Ice Swimming", "Camping"]
+    "tags" : ["Ice Swimming", "Camping"],
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#takalanpolku",
+    "crowded": 1
   },
   {
     "name": "haukkalampi",
@@ -69,7 +79,9 @@
     "difficulty" : "Challenging",
     "text" : "Along the route, you will find the following place, which has been the most popular to take pictures! ",
     "text1" : "After the route, other visitors favourite place to visit has been Finnish Nature Centre Haltia.",
-    "tags" : ["Fishing", "Kayaking"]
+    "tags" : ["Fishing", "Kayaking"],
+    "link" : "https://www.luontoon.fi/nuuksio/reitit/reittikuvaukset#punarinnankierros",
+    "crowded": 3
     
   }
 ]
