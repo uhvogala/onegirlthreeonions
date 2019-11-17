@@ -24,9 +24,9 @@ const theme = {
         lightCrowded: '#5ECC7C'
     },
     fonts: {
-        body: 'Avenir',
-        heading: 'Avenir',
-        monospace: 'Avenir'
+        body: 'Avenir, Nunito Sans',
+        heading: 'Avenir, Nunito Sans',
+        monospace: 'Avenir, Nunito Sans'
     },
     fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
     fontWeights: {
@@ -133,7 +133,6 @@ const theme = {
             borderRadius: 'button',
             color: 'white',
             bg: 'primary',
-            fontFamily: 'Avenir',
             fontWeight: 600,
             px: 20,
             py: 15
@@ -167,7 +166,6 @@ const theme = {
             px: 3,
             height: 'inputHeight',
             flex: '1 1 auto',
-            fontFamily: 'Avenir'
         }
     },
     styles: {

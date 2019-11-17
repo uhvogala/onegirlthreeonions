@@ -9,7 +9,8 @@ import WebFont from 'webfontloader';
 WebFont.load({
     google: {
         families: [
-            'Avenir'
+            'Avenir',
+            'Nunito Sans'
         ]
     }
 });
