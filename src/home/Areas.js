@@ -25,7 +25,7 @@ const AreasScreen = (props) => {
         <Box
             onClick={() => window.location.href = trail.link}
             key={index}
-            sx={{width: "240px", borderRadius: "default", mr: 3, my: 3, position: "relative"}}
+            sx={{cursor: "pointer", width: "240px", borderRadius: "default", mr: 3, my: 3, position: "relative"}}
         >
             <Image src={trail.thumbnail} sx={{
                 height: "310px",
@@ -67,7 +67,7 @@ const AreasScreen = (props) => {
         <Box
             onClick={()=> window.location.href = activity.link}
             key={index}
-            sx={{width: ["100%", "70%"], borderRadius: "default", my: "16px", my: 2, position: "relative"}}
+            sx={{cursor: "pointer", width: ["100%", "70%"], borderRadius: "default", my: "16px", my: 2, position: "relative"}}
         >
             <Image src={activity.photo} sx={{
                 height: ["180px", "300px"],
